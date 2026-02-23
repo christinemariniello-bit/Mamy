@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Per la mia mamma Sabrina</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+      :root{--bg:#fff0f6;--card:#ffffff;--accent:#ff6fa3;--text:#3b2b2b}
+      html,body{height:100%;margin:0;font-family:Montserrat,system-ui,Arial}
+      body{background:linear-gradient(180deg,var(--bg),#fff6fb);display:flex;align-items:center;justify-content:center;padding:2rem}
+      .card{max-width:880px;width:100%;background:var(--card);border-radius:18px;box-shadow:0 8px 30px rgba(203,90,140,0.12);padding:48px;display:flex;gap:32px;align-items:flex-start}
+      .hero{flex:0 0 220px;display:flex;align-items:center;justify-content:center}
+      .heart{width:160px;height:160px;display:block}
+      h1{font-family:'Playfair Display',serif;color:var(--accent);font-size:36px;margin:0 0 8px}
+      h2{font-family:'Playfair Display',serif;color:var(--text);font-size:18px;margin:0 0 16px;font-weight:400}
+      p{color:var(--text);line-height:1.6;margin:0 0 12px;font-size:18px}
+      .signature{margin-top:18px;font-weight:600;color:var(--accent)}
+      @media (max-width:720px){.card{flex-direction:column;padding:28px}.hero{order:2}}
+    </style>
+  </head>
+  <body>
+    <main class="card" role="main">
+      <div>
+        <h1>Per la mia mamma Sabrina</h1>
+        <h2>Con tutto il mio amore</h2>
+        <p>Cara mamma Sabrina,</p>
+        <p>Ogni giorno mi ricordo quanto sei speciale: la tua gentilezza, il tuo sorriso che illumina la casa e il modo in cui rendi ogni momento più dolce. Sei la mia forza, il mio porto sicuro e la persona a cui posso sempre dire tutto.</p>
+        <p>Voglio che tu sappia quanto ti voglio bene — non solo oggi, ma per sempre. Grazie per i tuoi abbracci, i tuoi consigli e per essere semplicemente te stessa: unica e meravigliosa.</p>
+        <p>Ti mando un abbraccio grande così e mille baci. Sei la mamma migliore che potessi desiderare.</p>
+        <p class="signature">Con tutto il mio amore,<br>Tu</p>
+      </div>
+      <div class="hero" aria-hidden="true">
+        <svg class="heart" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#ff9ccf"/>
+              <stop offset="1" stop-color="#ff6fa3"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 21s-7.5-4.87-9.5-7.2C-0.2 9.9 3 4 7.5 6.5 9.6 7.8 12 11 12 11s2.4-3.2 4.5-4.5C21 4 24.2 9.9 21.5 13.8 19.5 16.13 12 21 12 21z" fill="url(#g)" opacity="0.95"/>
+        </svg>
+      </div>
+    </main>
+  </body>
+</html>

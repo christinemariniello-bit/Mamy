@@ -14,8 +14,6 @@
       .hero{flex:0 0 180px;display:flex;align-items:center;justify-content:center}
       .heart{width:140px;height:140px;display:block;filter:drop-shadow(0 12px 24px rgba(255,111,163,0.18))}
       .heart svg{width:100%;height:100%;display:block}
-      .pulse{transform-origin:50% 50%;animation:beat 1.5s infinite ease-in-out}
-      @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
       h1{font-family:'Cormorant Garamond',serif;color:var(--accent);font-size:44px;margin:0 0 8px;letter-spacing:0.2px}
       h2{font-family:'Cormorant Garamond',serif;color:var(--text);font-size:20px;margin:0 0 16px;font-weight:400}
       p{color:var(--text);line-height:1.75;margin:0 0 12px;font-size:19px}
@@ -40,18 +38,8 @@
         <p class="signature">Con tutto il mio amore,<br>Chry</p>
       </div>
       <div class="hero" aria-hidden="true">
-        <svg class="heart" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-          <defs>
-            <linearGradient id="pinkGrad" x1="0" x2="1">
-              <stop offset="0" stop-color="#ffd3e8"/>
-              <stop offset="1" stop-color="#ff6fa3"/>
-            </linearGradient>
-          </defs>
-          <g transform="translate(0,0)">
-            <path class="pulse" d="M471.7,73.9c-54.5-46.2-136.7-38-186.9,13.5L256,116.3l-28.8-28.9C176.9,35.9,94.7,27.7,40.2,73.9
-              C-21.8,126.5-25.8,223.4,31,281.3l193.5,197.8c6.2,6.4,16.2,6.4,22.4,0L441,281.3C497.8,223.4,493.8,126.6,471.7,73.9z" fill="url(#pinkGrad)"/>
-            <path d="M256 380c-35-34-120-92-120-164 0-60 48-108 108-108 35 0 56 18 72 36 16-18 37-36 72-36 60 0 108 48 108 108 0 72-85 130-120 164-10 10-28 10-40 0z" fill-opacity="0"/>
-          </g>
+        <svg class="heart" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <path d="M12.1 21.35l-1.1-1.02C5.14 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.14 6.86-8.99 11.83l-1.9 1.02z" fill="none" stroke="#ff6fa3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
     </main>
